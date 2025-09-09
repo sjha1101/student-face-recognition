@@ -1,14 +1,17 @@
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 function App() {
   return (
-    <div className="form">
-      <h2 className="title">Login</h2>
-      <form>
-        <input type="text" name="name" id="name" placeholder="👤 Enter your name" />
-        <input type="password" name="password" id="password" placeholder="🔑 Enter your password" />
-        <button type="submit" className="submit">Login</button>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Navigate to="./login" />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
 
-      </form>
-    </div>
+      </Routes>
+    </Router>
+
   );
 }
 

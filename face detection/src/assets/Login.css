@@ -37,7 +37,7 @@ h2 {
 
 input {
     display: block;
-    width: 90%;
+    width: 100%;
     margin: 15px auto;
     padding: 12px;
     border: none;
@@ -71,8 +71,6 @@ input:focus {
 .submit:hover {
     background-color: white;
     color: #000000;
-    transform: scale(1.05);
-    box-shadow: 0 0 10px #f1f1f1;
 }
 
 @keyframes fadeIn {
@@ -85,4 +83,23 @@ input:focus {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+label {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+a {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
 }
