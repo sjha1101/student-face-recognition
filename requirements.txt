@@ -1,0 +1,9 @@
+1)ek aisa web application jisme student register karega data jaise ki name roll number,enrollment number,
+password ye sab databse mein user vale table mein store ho jaaye ga uske baad ek login page aayega usme
+login page aaye jo roll number & password se opne hoga jo user ne registration time diya hai.
+
+2)Uske baad ek webpage khole ja jo user se right,left,straight side ki picture collect karega vo sara
+data face name ke table mein save ho jaye ga 
+
+3)uske baad jab bhi user camera ke age aayega to uski present ho jaye gi aur nhi aaye to by default 
+absent aajayega
